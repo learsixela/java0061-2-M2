@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos 2::</title>
+    <style>
+        /*selector universal*/
+        *{
+            /*color:red;*/
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        .clase1{
+            color: rgb(64, 133, 154);
+        }
+        .clase2{
+            /*color:lightcoral;*/
+            background-color: gray;
+        }
+        .clase1.clase2{
+            color: blue;
+            background-color: lightslategray;
+        }
+        footer{
+            background-color: lightgoldenrodyellow;
+        }
+        /*probar especificidad con ul li a*/
+        /*Media Query*/
+        /*sm >= 568*/
+        @media screen and (max-width: 35.5em) {
+            h1{
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="clase1">
+            <h1 class="clase2">Estilos 2</h1>
+            <p class="clase1 clase2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nulla sunt praesentium cumque, beatae tenetur obcaecati sapiente voluptates, similique officia porro consequuntur, numquam excepturi alias aperiam? Repellat possimus in quo.</p>
+        </div>
+    </main>
+    <footer>
+        <p>@ alkemy 2025-2026</p>
+    </footer>
+</body>
+</html>

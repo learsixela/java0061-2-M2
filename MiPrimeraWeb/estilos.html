@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos CSS::</title>
+
+<style>
+    /*1.- etiquetas (a todas las etiquetas)*/
+    /*el ultimo estilo prevalece*/
+    p {
+        color: blue;/*color al texto*/
+        font-size: 18px;/*tamaño al texto*/
+    }
+
+    h2 {
+        background-color: chocolate;/*color de fondo*/
+    }
+
+    p, h2 {
+        color: green;
+    }
+
+    /*2.- clases (. class) (1 o mas de una etiqueta) */
+    .parrafos{
+        color: darkblue;
+    }
+
+    .general {
+        background-color: yellow;
+    }
+
+    /*3.- ID (#) (especifico para solo 1 elemento)*/
+    #p4 {
+        color: darkmagenta;
+        background-color: beige;
+        font-size: 25px !important;
+    }
+
+    #abuelo{
+        font-family: 'Times New Roman', Times, serif;
+        background-color: rgba(32, 42, 236, 0.657);
+        color: white;
+    }
+
+</style>
+
+</head>
+<body>
+    <h2>Titulo 1</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, nesciunt. Cum ipsum quae asperiores provident accusantium error, magnam eveniet autem temporibus atque veritatis possimus in? Nostrum fugit tempora eaque nemo.</p>
+    <p class="parrafos">parrafo 2</p>
+    <p class="parrafos">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, officiis magnam voluptatibus dolorem mollitia consequatur ad fuga perspiciatis dolor eos atque quibusdam, pariatur, laudantium expedita. Libero quidem odit ex quibusdam!</p>
+    <h2 class="general">titulo 2</h2>
+    <h3 class="general"> titulo 3</h3>
+
+    <p class="general" id="p4" style="font-size: 30px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita itaque est quae iusto! Expedita fuga, ea error rerum animi aliquid qui quo atque deleniti inventore eligendi eius illum consectetur vero.</p>
+    
+    <div id="abuelo">
+        <div id="padre">
+            <p id="parrafo5">parrafo 5</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

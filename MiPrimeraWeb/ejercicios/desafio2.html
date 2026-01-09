@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2::</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+    crossorigin="anonymous"
+    />
+    <style>
+        #aside{
+            height:300px;
+        }
+        #sections{
+            height:400px;
+        }
+        /*
+        Utilice las siguientes clases para esta actividad
+            .col-{numero, blank, auto}
+            .row
+            
+            .p-{numero} (el espaciado (paddings) puede ser aplicado en diferentes formas. Más detalles aquí).
+            .m-{number} (lo mismo que el atributo anterior)
+            
+            .offset-{numero}
+
+            .container
+            .text-{color}
+            .bg-{color}
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header" class="bg-primary text-white mb-3">
+            <div class="p-4">
+                <div class="mx-auto p-3">Header</div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="aside" class="col-12 col-md-2  col-lg-4 me-2 bg-info text-white">Aside</div>
+            <div id="main"  class="col    col-md-10 col-lg-8 ms-2 bg-warning text-white">
+                Main
+                <div id="sections" class="row text-black p-3">
+                    <div class="col-12 bg-white me-2">Article</div>
+                    <div class="col bg-white ms-2">Article</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="bg-success text-white">
+            <div>Footer</div>
+        </div>
+    </div>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+    ></script>
+    <!--<script src="assets/js/bootstrap.bundle.min.js"></script>-->
+</body>
+</html>
