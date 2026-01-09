@@ -22,3 +22,6 @@ git push -u origin main
 git add .
 git commit -m "se modifica el archivo javascript"
 git push -u origin main
+
+/**nueva modificacion*/
+// se sube desde vscode
