@@ -29,3 +29,10 @@ git add .
 git commit -m "se modifica el archivo javascript"
 git push -u origin main
 ```
+
+### ramas
+```
+git branch
+git branch -m NUEVA_RAMA
+git checkout NOMBRE_RAMA
+```
