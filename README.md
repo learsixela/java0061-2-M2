@@ -25,6 +25,7 @@ git push -u origin main
 ##  Archivos modificados o nuevos archivos
 ```
 git status
+git pull
 git add .
 git commit -m "se modifica el archivo javascript"
 git push -u origin main
@@ -35,4 +36,25 @@ git push -u origin main
 git branch
 git branch -m NUEVA_RAMA
 git checkout NOMBRE_RAMA
+o
+git switch RAMA_NUEVA
+```
+
+### Pull Request
+```
+git clone repositorio
+
+git switch -c feature/rama_ejemplo
+realizo cambios en la rama
+git add .
+git commit -m "mensaje"
+git push -u origin feature/rama_ejemplo
+
+PR (pull request) + merge
+
+//Merge
+git switch main
+git merge feature/rama_ejemplo
+git branch -d feature/rama_ejemplo
+
 ```
