@@ -57,4 +57,8 @@ git switch main
 git merge feature/rama_ejemplo
 git branch -d feature/rama_ejemplo
 
+eliminar rama en el repo desde consola
+git push origin --delete feature/rama_ejemplo
+
 ```
+
