@@ -55,9 +55,15 @@ PR (pull request) + merge
 //Merge
 git switch main
 git merge feature/rama_ejemplo
+//eliminar rama local
 git branch -d feature/rama_ejemplo
 
-eliminar rama en el repo desde consola
+//ver ramas locale y remotas
+git branch -a
+// solo ramas remotas 
+git branch -r
+
+//eliminar rama en el repo desde consola
 git push origin --delete feature/rama_ejemplo
 
 ```
